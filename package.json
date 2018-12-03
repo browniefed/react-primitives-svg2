@@ -1,0 +1,27 @@
+{
+  "name": "react-primitives-svg2",
+  "version": "0.1.0",
+  "description": "SVG elements for React",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "rm -rf lib && babel -d lib src"
+  },
+  "keywords": [
+    "react",
+    "svg"
+  ],
+  "author": "Jason Brown <browniefed@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "rollup": "^0.66.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-native": "*",
+    "react-native-svg": "*"
+  }
+}
