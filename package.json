@@ -1,6 +1,6 @@
 {
   "name": "react-primitives-svg2",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "SVG elements for React",
   "main": "lib/index.js",
   "browser": "lib/core.web.js",
